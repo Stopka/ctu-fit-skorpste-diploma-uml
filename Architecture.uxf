@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>340</x>
+      <y>70</y>
+      <w>210</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;J2EE container&gt;&gt;
+Jetty
+bg=white
+group=8
+layer=1
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>330</x>
+      <y>10</y>
+      <w>240</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+Search server
+bg=light_gray
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>690</x>
+      <y>10</y>
+      <w>190</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+Search client
+bg=light_gray
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>700</x>
+      <y>70</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Web browser
+group=2
+bg=white
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>350</x>
+      <y>130</y>
+      <w>180</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Sorl
+bg=white
+layer=2
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>360</x>
+      <y>170</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;library&gt;&gt;
+Analyzer
+bg=white
+layer=4
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>360</x>
+      <y>230</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;library&gt;&gt;
+Carrot2
+bg=white
+layer=4
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>350</x>
+      <y>300</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Frontend
+bg=white
+layer=2
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>30</x>
+      <y>10</y>
+      <w>190</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+File client
+bg=light_gray
+group=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>40</x>
+      <y>70</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Crawler
+bg=white
+layer=1
+group=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>190</x>
+      <y>90</y>
+      <w>180</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-
+layer=5
+HTTP</panel_attributes>
+    <additional_attributes>160.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>90</y>
+      <w>200</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=-
+layer=5
+HTTP</panel_attributes>
+    <additional_attributes>10.0;240.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>90</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-
+layer=5
+
+Ajax HTTP</panel_attributes>
+    <additional_attributes>10.0;70.0;180.0;10.0</additional_attributes>
+  </element>
+</diagram>
